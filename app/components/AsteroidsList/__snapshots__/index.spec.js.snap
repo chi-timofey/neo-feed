@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AsteroidsList /> renders correctly 1`] = `
+<table
+  className="table"
+>
+  <thead
+    className="thead-light"
+  >
+    <tr>
+      <th
+        scope="col"
+      >
+        Name
+      </th>
+      <th
+        scope="col"
+      >
+        Estimated Diameter
+      </th>
+      <th
+        scope="col"
+      >
+        Absolute Magnitude_h
+      </th>
+      <th
+        scope="col"
+      >
+        Close Approach Data
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      className=""
+    >
+      <th
+        scope="row"
+      >
+        153460 (2001 RN)
+      </th>
+      <td>
+        0.7145621017
+      </td>
+      <td>
+        19.6
+      </td>
+      <td>
+        44882908
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <th
+        scope="row"
+      >
+        446833 (2001 RB12)
+      </th>
+      <td>
+        0.3750075218
+      </td>
+      <td>
+        21
+      </td>
+      <td>
+        34019076
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <th
+        scope="row"
+      >
+        (2002 FQ5)
+      </th>
+      <td>
+        0.4721064988
+      </td>
+      <td>
+        20.5
+      </td>
+      <td>
+        70526480
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <th
+        scope="row"
+      >
+        (2009 UX87)
+      </th>
+      <td>
+        0.0517654482
+      </td>
+      <td>
+        25.3
+      </td>
+      <td>
+        33284624
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <th
+        scope="row"
+      >
+        (2015 BW510)
+      </th>
+      <td>
+        0.4305662442
+      </td>
+      <td>
+        20.7
+      </td>
+      <td>
+        71497008
+      </td>
+    </tr>
+    <tr
+      className=""
+    >
+      <th
+        scope="row"
+      >
+        (2016 HE3)
+      </th>
+      <td>
+        0.0820427065
+      </td>
+      <td>
+        24.3
+      </td>
+      <td>
+        17375290
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

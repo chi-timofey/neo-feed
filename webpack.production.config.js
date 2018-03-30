@@ -40,7 +40,10 @@ const config = {
   ],
 
   resolve: {
-    extensions: ['.js', '.jsx'],
+    modules: [
+      'app',
+      'node_modules',
+    ],
   },
 
   module: {
@@ -51,8 +54,7 @@ const config = {
         loader: 'babel-loader',
       },
       {
-        test: /\.scss$/,
-        exclude: /node_modules/,
+        test: /\.(scss|css)$/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
           use: [

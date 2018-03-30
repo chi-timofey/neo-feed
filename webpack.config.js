@@ -2,7 +2,6 @@ const { resolve } = require('path');
 
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
 const OpenBrowserPlugin = require('open-browser-webpack-plugin');
 
 const config = {
@@ -30,9 +29,12 @@ const config = {
     historyApiFallback: true,
     publicPath: '/'
   },
-  
+
   resolve: {
-    extensions: ['.js', '.jsx'],
+    modules: [
+      'app',
+      'node_modules',
+    ],
   },
 
   module: {
@@ -51,8 +53,7 @@ const config = {
         exclude: /node_modules/,
       },
       {
-        test: /\.scss$/,
-        exclude: /node_modules/,
+        test: /\.(scss|css)$/,
         use: ['css-hot-loader'].concat(ExtractTextPlugin.extract({
           fallback: 'style-loader',
           use: [

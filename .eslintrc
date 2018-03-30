@@ -13,7 +13,16 @@
     "mocha": true,
     "es6": true
   },
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "webpack.config"
+      }
+    }
+  },
   "rules": {
+    "import/prefer-default-export": "off",
+    "no-confusing-arrow": "off",
     "space-before-function-paren": "off",
     "react/prefer-stateless-function": "warn",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],

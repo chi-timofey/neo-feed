@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import App from '../components/App';
+import NeoFeed from 'containers/NeoFeed';
 
 const Root = () => {
   return (
     <Router>
       <Switch>
-        <Route path="/" component={App} exact />
+        <Route path="/" component={NeoFeed} exact />
       </Switch>
     </Router>
   );

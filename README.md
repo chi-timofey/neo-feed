@@ -6,8 +6,9 @@ Make sure you have the latest Stable or LTS version of Node.js installed.
 
 1. `git clone ...`
 2. Run `npm install` or `yarn install`
-3. Start the dev server using `npm start`
-3. Open [http://localhost:8080](http://localhost:8080)
+3. rename config/config.example.js to index.js and add api key
+4. Start the dev server using `npm start`
+5. Open [http://localhost:8080](http://localhost:8080)
 
 ## Available Commands
 
